@@ -25,6 +25,9 @@ export class CartService {
   getGraphicDesignPortfolio() {
     return this.http.get('/assets/graphic.json');
   }
+  getDigitalArtPortfolio() {
+    return this.http.get('/assets/digital.json');
+  }
 
   getPortfolio(_file) {
     return this.http.get(_file);
